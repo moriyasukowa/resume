@@ -1,6 +1,26 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: resume
+title: "个人简历"
 ---
+
+# {{ site.author }}
+
+## 联系方式
+- **Email:** example@example.com
+- **电话:** +86-123-4567-8901
+
+## 教育背景
+- **北京邮电大学** - 邮政工程学士 (2021-至今)
+
+## 研究项目
+- **耦合交通与电力系统的脆弱性分析及韧性增强**  
+  导师: 王洪平教授, 方一平博士
+- **基于图卷积网络和NSGA-II的复杂系统韧性增强框架**
+
+## 技能
+- 编程语言: Python, MATLAB, C++
+- 优化算法与机器学习技术
+
+## 荣誉与奖励
+- 国家奖学金
+- 最佳学生论文奖 (2023 第五届国际系统可靠性与安全工程会议)
