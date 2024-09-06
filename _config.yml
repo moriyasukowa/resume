@@ -21,7 +21,7 @@
 title: 展开
 email: zhangke.bupt@hotmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-啊啊啊, 我要打死yyh o(≧口≦)o
+  啊啊啊, 我要打死yyh.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
