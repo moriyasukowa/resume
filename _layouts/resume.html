@@ -1,56 +1,110 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }} - {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
+    <meta charset="UTF-8">
+    <title>张珂的简历</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        h1, h2, h3 {
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            padding: 10px 20px;
+            font-size: 28px;
+        }
+        h2 {
+            padding: 15px 20px 5px;
+            font-size: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        h3 {
+            padding: 10px 20px 5px;
+            font-size: 16px;
+        }
+        p {
+            padding: 5px 20px;
+            margin: 0;
+        }
+        .contact-info {
+            margin: 10px 20px;
+        }
+        .section-content {
+            padding: 5px 20px;
+        }
+        .sub-section {
+            padding-left: 40px;
+        }
+        .right-align {
+            text-align: right;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>{{ site.author }}</h1>
-    <p>{{ site.description }}</p>
-  </header>
-  
-  <section id="contact">
-    <h2>联系方式</h2>
-    <p>Email: example@example.com</p>
-    <p>Phone: +86-123-4567-8901</p>
-  </section>
 
-  <section id="education">
-    <h2>教育背景</h2>
-    <ul>
-      <li>北京邮电大学 - 邮政工程学士 (2021-至今)</li>
-    </ul>
-  </section>
+<h1>张珂</h1>
 
-  <section id="experience">
-    <h2>研究项目</h2>
-    <ul>
-      <li>耦合交通与电力系统的脆弱性分析及韧性增强</li>
-      <li>一种基于ResNet与NSGA-II的多目标韧性加强框架 </li>
-    </ul>
-  </section>
+<p class="contact-info">
+    <a href="mailto:zhangke.bupt@hotmail.com">zhangke.bupt@hotmail.com</a> | 13956769346 | <a href="http://www.zhangke.asia/" target="_blank">www.zhangke.asia</a>
+</p>
 
-  <section id="skills">
-    <h2>技能</h2>
-    <ul>
-      <li>编程语言: Python, MATLAB, C++</li>
-      <li>优化算法与机器学习技术</li>
-    </ul>
-  </section>
+<h2>个人总结</h2>
+<p class="section-content">申请岗位：算法实习生-运筹优化方向</p>
+<p class="section-content">熟悉Python语言（含Gurobi、Pyomo、Pymoo包）运筹学模型编程建模；熟悉Java基本语法与CPLEX API的使用。</p>
+<p class="section-content">具备完整实现MIP精确求解算法（Benders分解，列与约束生成）以及非精确求解算法（遗传算法，粒子群算法等）的经验。能够熟练使用Python进行数据分析任务，基本了解所用到的机器学习与深度学习模型的原理。</p>
 
-  <section id="awards">
-    <h2>荣誉与奖励</h2>
-    <ul>
-      <li>国家励志奖学金</li>
-      <li>最佳学生论文奖 (2023 第五届国际系统可靠性与安全工程会议)</li>
-    </ul>
-  </section>
+<h2>教育经历</h2>
+<h3>北京邮电大学</h3>
+<p class="section-content">邮政工程 本科 智能工程与自动化学院</p>
+<p class="section-content">GPA: 3.82/4.00（专业第一）；加权平均分：92.03/100（专业第一）</p>
+<p class="section-content right-align">2021年09月 - 2026年06月 | 北京</p>
+<p class="section-content">相关课程：运筹学（94），系统建模与仿真（96），计算机算法与数学模型（下）（95），人工智能与数据挖掘（94），大数据与人工智能实验（94），商务智能与大数据分析（95），移动互联网（图论与网络分析）（100），Java高级语言程序设计（100）</p>
 
-  <footer>
-    <p>&copy; 2024 {{ site.author }}</p>
-  </footer>
+<h2>荣誉奖项</h2>
+<p class="section-content">2022年 国家励志奖学金</p>
+<p class="section-content">2023年第十届北京市大学生能源经济学术创新大赛 市三等奖</p>
+<p class="section-content">2023年第十八届全国大学生交通运输科技大赛 优秀作品奖</p>
+<p class="section-content">2023年第五届北京市大学生节能节水低碳减排社会实践与科技竞赛 市二等奖</p>
+<p class="section-content">2023年北京市大学生交通科技竞赛 市三等奖</p>
+<p class="section-content">2024年第十一届北京市大学生能源经济学术创新大赛 市一等奖</p>
+<p class="section-content">2024年第十一届全国大学生能源经济学术创新大赛 国家二等奖</p>
+
+<h2>论文</h2>
+<h3>Ke Zhang; Yanzhu Hu; Hongping Wang; Yufeng Zhuang</h3>
+<p class="sub-section">Vulnerability Assessment of Charging Stations in the Electrified Road Network Based on the Attacker-Defender Framework，2023 5th International Conference on System Reliability and Safety Engineering，China，Beijing，Tsinghua University. IEEE，2023: 541-546.（本人作为第一作者，该论文被会议评为“Best Student Paper”）</p>
+
+<h3>Ke Zhang; Yi-Ping Fang; Hongping Wang; Yufeng Zhuang; Enrico Zio</h3>
+<p class="sub-section">Vulnerability Assessment of Charging Stations in the Electrified Road Network[J]. IEEE Transactions on Intelligent Transportation Systems. （[1]的扩展版，增加了求解算法与实验等内容；本人作为第一作者，与巴黎萨克雷大学全职教授Yi-Ping Fang，以及IEEE Fellow、欧洲安全与可靠性协会主席Enrico Zio合作，目前一审大修，已返回修改稿，正在二审）</p>
+
+<h2>项目经历</h2>
+<h3>耦合交通电力系统中充电站脆弱性分析</h3>
+<p class="section-content">数学建模，编程，算法编写，论文撰写</p>
+<p class="right-align">2022年09月 - 2023年12月 | 北京</p>
+<p class="section-content">针对耦合交通电力系统中充电站易损问题，使用一阶段鲁棒规划来求解最坏情况下损坏充电站的组合，实现脆弱性分析的目的。</p>
+<p class="section-content">对一阶段鲁棒规划问题进行对偶重构，转化为单层可解的混合整数规划（MIP）问题，线性化布尔变量与连续变量的乘积项为混合整数线性规划（MILP）问题。采用多切面版Benders分解方法，分离整数变量，通过主问题与子问题的迭代求解，显著提高求解效率，节省78%的求解时间。</p>
+
+<h3>考虑电动无人车充电的配送路线规划（小学期项目）</h3>
+<p class="section-content">组长，数学建模，编程，报告撰写</p>
+<p class="right-align">2023年06月 - 2023年07月 | 北京</p>
+<p class="section-content">建立经典TSP、VRP以及EVRP（电动汽车路径规划）的数学模型与相关约束书写。</p>
+<p class="section-content">以上三种问题的遗传算法求解（Python）与精确算法求解（Python-GurobiPy），通过对比确认启发式算法能得到最优解。</p>
+<p class="section-content">基于粒子群算法的无人车PID控制器调参。完成报告书写，小学期取得全班最高分（98分）。</p>
+
+<h2>研究经历</h2>
+<h3>电力系统韧性增强：基于鲁棒优化框架与随机优化框架的对比</h3>
+<p class="section-content">数学建模，编程，算法编写</p>
+<p class="right-align">2024年01月 - 2024年09月 | 北京</p>
+<p class="section-content">针对韧性加强过程中潜在的不确定信息，学界通常使用鲁棒规划或随机规划这两种方法来处理，但尚未存在定量地对这两种方法进行评估的文献。</p>
+<p class="section-content">分别建立了随机规划及其变种（含CVaR的风险规避随机规划），鲁棒规划及其变种（自适应鲁棒规划）的电网韧性增强模型。使用多切面L-shaped Method来加速求解两种随机规划；列与约束生成来加速求解两种鲁棒规划。</p>
+<p class="section-content">采用两种模拟方法评估韧性加强策略的优劣：蒙特卡洛模拟用于评估给定概率分布下韧性加强后系统性能表现；最坏情况模拟使用双层模型用于评估模型在不同烈度的恶意攻击下的表现。</p>
+
+<h2>社团和组织经历</h2>
+<!-- 社团和组织经历部分内容省略，按照需求继续编写 -->
+
 </body>
 </html>
