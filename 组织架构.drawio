@@ -134,7 +134,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="b8dD_XVdSkhRS__WsYkn" name="第 2 页">
-    <mxGraphModel dx="1190" dy="1950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0" adaptiveColors="simple">
+    <mxGraphModel dx="572" dy="1635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0" adaptiveColors="simple">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -381,11 +381,14 @@
             <mxPoint x="410" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s8QNPk35rGilSmePH258-12" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+        <mxCell id="s8QNPk35rGilSmePH258-12" value="v" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="-25" width="170" height="425" as="geometry" />
         </mxCell>
         <mxCell id="s8QNPk35rGilSmePH258-13" value="&lt;b&gt;&lt;u&gt;&lt;i&gt;采购流程&lt;/i&gt;&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="30" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s8QNPk35rGilSmePH258-20" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="242.5" width="617" height="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
